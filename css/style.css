@@ -1,0 +1,74 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navItem {
+    display: inline-block;
+    padding: 20px 30px;
+    /* padding: #px */
+    /* padding: #px #px */
+    /* padding: #px #px #px #px */
+    background-color: cadetblue;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+.sideBar {
+    width: 29%;
+    float: left;
+    height: 600px;
+    background-color: darkcyan;
+}
+
+.mainContent {
+    width: 70%;
+    float: left;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+
+.topDiv {
+    background-color: orange;
+    height: 200px;
+
+    text-align: center;
+}
+
+.btmDiv {
+    background-color: orangered;
+    height: 400px;
+}
+
+.topDiv img {
+    width: 125px;
+}
+
+.mainContent img {
+    width: 200px;
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.description, .petGallery {
+    padding: 15px;
+}
+
+.description img {
+    float: left;
+    padding-right: 12px;
+}
+
+.petGallery {
+    text-align: center;
+}
